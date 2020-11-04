@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.918">
+    <testcase classname="Login functionality of OrangeHRM Application" name="Verification of Login Button with number of credentials" time="24.771">
+        <system-out>
+            <![CDATA[Given Open the chrome and launch the application............................passed
+When Enter the Username "Admin" and Password "admin123".....................passed
+Then Login to the application...............................................passed
+And Click on time, attendance and punchInOut................................passed
+And Enter punch in details "2020-10-21" and "01:00" and "noteIn"............passed
+And Enter punch out details "2020-10-21" and "02:00" and "noteOut"..........passed
+Then Close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

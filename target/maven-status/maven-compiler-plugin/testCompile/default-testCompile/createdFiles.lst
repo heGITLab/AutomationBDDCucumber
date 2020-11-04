@@ -1,0 +1,7 @@
+TestRunner/Runner.class
+StepDefinition/StepsTags.class
+StepDefinition/StepsDataTables.class
+StepDefinition/StepsDDT.class
+StepDefinition/StepsExamples.class
+StepDefinition/StepsHooks.class
+StepDefinition/StepsDirectPass.class

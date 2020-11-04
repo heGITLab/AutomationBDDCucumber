@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-04T15:11:09.139Z",
+        "line": 14,
+        "name": "Verification of Login Button with number of credentials",
+        "description": "",
+        "id": "login-functionality-of-orangehrm-application;verification-of-login-button-with-number-of-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5996344000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the chrome and launch the application",
+            "match": {
+              "location": "StepDefinition.StepsExamples.launchAppByOpenningChrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153563000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the Username \"Admin\" and Password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                },
+                {
+                  "val": "admin123",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinition.StepsExamples.typeUNandPW(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4393156000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login to the application",
+            "match": {
+              "location": "StepDefinition.StepsExamples.appLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7210976000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on time, attendance and punchInOut",
+            "match": {
+              "location": "StepDefinition.StepsExamples.enterTimeDetaile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4477436000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter punch in details \"2020-10-21\" and \"01:00\" and \"noteIn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020-10-21",
+                  "offset": 24
+                },
+                {
+                  "val": "01:00",
+                  "offset": 41
+                },
+                {
+                  "val": "noteIn",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefinition.StepsExamples.enterPunchIn(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2362559000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter punch out details \"2020-10-21\" and \"02:00\" and \"noteOut\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2020-10-21",
+                  "offset": 25
+                },
+                {
+                  "val": "02:00",
+                  "offset": 42
+                },
+                {
+                  "val": "noteOut",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.StepsExamples.enterPunchOut(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106152000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDefinition.StepsExamples.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality of OrangeHRM Application",
+    "description": "",
+    "id": "login-functionality-of-orangehrm-application",
+    "keyword": "Feature",
+    "uri": "file:Features/dataWithExamples.feature",
+    "tags": []
+  }
+]
